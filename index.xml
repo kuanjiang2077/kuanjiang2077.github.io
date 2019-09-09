@@ -12,31 +12,31 @@
     
     
     <item>
-      <title>My Third Blog</title>
+      <title>Neovim Hotkeys</title>
       <link>https://kuanjiang2077.github.io/post/my-third-blog/</link>
       <pubDate>Mon, 09 Sep 2019 15:37:25 +0800</pubDate>
       
       <guid>https://kuanjiang2077.github.io/post/my-third-blog/</guid>
-      <description></description>
+      <description> Neovim Hotkeys autocomplete  C-x C-o C-n C-f  </description>
     </item>
     
     <item>
-      <title>My Second Blog</title>
+      <title>NeoVim plugin</title>
       <link>https://kuanjiang2077.github.io/post/my-second-blog/</link>
       <pubDate>Mon, 09 Sep 2019 15:26:10 +0800</pubDate>
       
       <guid>https://kuanjiang2077.github.io/post/my-second-blog/</guid>
-      <description>second blog</description>
+      <description> Use nvim not neovim Config location ~/.config/nvim/init.vim
+typecal plugin  vim-plug: the plugin manager NERDTree: NERDTreeToggle deoplete: and deoplete-go  </description>
     </item>
     
     <item>
-      <title>My First Post</title>
+      <title>Golang rand.Seed</title>
       <link>https://kuanjiang2077.github.io/post/my-first-post/</link>
       <pubDate>Mon, 09 Sep 2019 13:32:00 +0800</pubDate>
       
       <guid>https://kuanjiang2077.github.io/post/my-first-post/</guid>
-      <description>this is a very long blog.
-this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog. this is a very long blog.</description>
+      <description> Rand in Go rand in go is not random since the rand.Seed rand.Seed(time.Now().UnixNano()) rand.Intn(100) // e.g. 100  </description>
     </item>
     
     <item>
