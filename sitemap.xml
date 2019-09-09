@@ -3,32 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kuanjiang2077.github.io/tags/blog/</loc>
-    <lastmod>2019-09-09T13:32:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kuanjiang2077.github.io/tags/golang/</loc>
-    <lastmod>2019-09-09T13:32:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kuanjiang2077.github.io/post/my-first-post/</loc>
-    <lastmod>2019-09-09T13:32:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kuanjiang2077.github.io/</loc>
-    <lastmod>2019-09-09T13:32:00+08:00</lastmod>
+    <lastmod>2019-09-09T15:37:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/post/my-third-blog/</loc>
+    <lastmod>2019-09-09T15:37:25+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuanjiang2077.github.io/post/</loc>
-    <lastmod>2019-09-09T13:32:00+08:00</lastmod>
+    <lastmod>2019-09-09T15:37:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/tags/blog/</loc>
+    <lastmod>2019-09-09T15:26:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/tags/golang/</loc>
+    <lastmod>2019-09-09T15:26:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/post/my-second-blog/</loc>
+    <lastmod>2019-09-09T15:26:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/tags/news/</loc>
+    <lastmod>2019-09-09T15:26:10+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://kuanjiang2077.github.io/tags/</loc>
+    <lastmod>2019-09-09T15:26:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kuanjiang2077.github.io/post/my-first-post/</loc>
     <lastmod>2019-09-09T13:32:00+08:00</lastmod>
   </url>
   

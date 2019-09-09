@@ -94,8 +94,8 @@ h1, h2, h3, h4 {
 
 .site-logo {
   position: relative;
-  width: 7vmin;
-  height: 7vmin;
+  width: 9vmin;
+  height: 9vmin;
   margin: 0 auto; }
   .site-logo a {
     display: inline-block;
