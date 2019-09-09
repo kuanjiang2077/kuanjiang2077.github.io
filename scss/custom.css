@@ -20,3 +20,12 @@
 .index-posts .index-posts__list {
 	font-size: 0.9rem;
 }
+
+.footer {
+	margin-top:4vh;
+}
+
+.index-posts .l-time {
+	width: 9rem;
+}
+
