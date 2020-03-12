@@ -21,6 +21,28 @@ html, body {
     width: 20%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h2 {
+    color: #bdc3c7;
+}
+
+a {
+    color: #2c3e50;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#nav {
+    overflow: auto;
+}
+
 #nav ul {
     padding-inline-start: 0px
 }
@@ -30,18 +52,23 @@ html, body {
     list-style:none;
     color: #fff;
     font-weight: bold;
-    /* line-height: 2rem; */
     padding: 3%;
+    padding-top: 30%;
 }
-
+#nav li:nth-child(1) {
+    background: #f39c12;
+}
 #nav li:nth-child(2) {
     background: #8e44ad;
 }
 #nav li:nth-child(3) {
     background: #c0392b;
 }
-#nav li:nth-child(1) {
-    background: #f39c12;
+#nav li:nth-child(4) {
+    background: #2980b9;
+}
+#nav li:nth-child(5) {
+    background: #2c3e50;
 }
 
 #detail{
