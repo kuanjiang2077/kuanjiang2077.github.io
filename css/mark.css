@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .container {
@@ -14,17 +14,23 @@ html, body {
 
 #nav{
     width: 20%;
-    padding: 20px;
+    padding: 2%;
+    padding-top: 0;
+}
+
+#nav ul {
+    padding-inline-start: 0px
 }
 
 #nav li{
     cursor: pointer;
+    list-style:none;
 }
 
 #detail{
     width: 80%;
     background: #eee;
-    padding: 40px;
+    padding: 3%;
 }
 
 a {
