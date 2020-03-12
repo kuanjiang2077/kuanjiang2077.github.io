@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.item {
+    background: #ddd;
+}
+
+#nav{
+    width: 20%;
+    padding: 20px;
+}
+
+#nav li{
+    cursor: pointer;
+}
+
+#detail{
+    width: 80%;
+    background: #eee;
+    padding: 40px;
+}
+
+a {
+    /* font-size: larger; */
+}

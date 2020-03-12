@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/mark.css">
 </head>
-<body id="body">
-    hi github
-<nav id="nav">
+<body id="body" class="container">
+    
+<nav id="nav" class="item">
+    <h1>hi github</h1>
     <ul>
-        <li data-fetch="md/test.md">
+        <li data-fetch="md/study.md">
             学习
         </li>
-        <li data-fetch="md/test2.md">
-            娱乐
+        <li data-fetch="md/job.md">
+            工作
         </li>
-        <li data-fetch="fetch2">
-            test
-        </li>
+        
     </ul>
 </nav>
-<div id="detail">
+<div id="detail" class="item">
 
 </div>
 
@@ -31,10 +31,7 @@
     $(function(){
         $("#nav li").click(function(e) {
             url = $(e.target).attr("data-fetch");
-            $.get(url, function(md){
-                var html = converter.makeHtml(md);
-                $("#detail").html(html);
-            });
+            $.get(url, fillMd);
         });
 
         setup();
@@ -42,10 +39,14 @@
 
     function setup() {
         url = $("#nav li:first").attr("data-fetch");
-        $.get(url, function(md){
-            var html = converter.makeHtml(md);
-            $("#detail").html(html);
-        });
+        $.get(url, fillMd);
+    }
+
+    function fillMd(md) {
+        var html = converter.makeHtml(md);
+        hml = $(html);
+        hml.find("a").attr("target", "_blank");
+        $("#detail").html(hml);
     }
 </script>
 </body>
