@@ -1,9 +1,7 @@
-[**TEST Showdown**](http://www.showdownjs.com) is *great*
 
-because:
 
-- it\'s easy to use
+- [baidu](https://baidu.com)
   
-- it\'s extensible
+- [google](https://google.com)
   
 - works in the server and in the browser
