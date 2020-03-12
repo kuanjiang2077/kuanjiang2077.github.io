@@ -8,6 +8,21 @@
 <body id="body">
     hi github
 
+<nav id="nav">
+    <ul>
+        <li data-fetch="fetch">
+            click
+        </li>
+        <li data-fetch="fetch1">
+            click
+        </li>
+        <li data-fetch="fetch2">
+            click
+        </li>
+    </ul>
+</nav>
+
+
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/showdown.min.js"></script>
 <script>
@@ -16,6 +31,10 @@
         $.get("md/test.md", function(md) {
             var html = converter.makeHtml(md);
             $("body").append(html);
+        })
+
+        $("#nav li").click(function(e) {
+            alert($(e.target).attr("data-fetch"));
         })
     });
 </script>
