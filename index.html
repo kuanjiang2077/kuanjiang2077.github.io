@@ -12,15 +12,9 @@
 <script src="js/showdown.min.js"></script>
 <script>
     var converter = new showdown.Converter();
-    var md = '[**Showdown**](http://www.showdownjs.com) is *great*\n' +
-            'because:\n\n' +
-            ' - it\'s easy to use\n' +
-            ' - it\'s extensible\n' +
-            ' - works in the server and in the browser';
-    var html = converter.makeHtml(md);
     $(function(){
-        $("body").append(html);
-        $.get("innerhtml/test.html", function(html) {
+        $.get("md/test.md", function(md) {
+            var html = converter.makeHtml(md);
             $("body").append(html);
         })
     });
