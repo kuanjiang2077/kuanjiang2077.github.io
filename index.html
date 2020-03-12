@@ -9,45 +9,25 @@
 <body id="body" class="container">
     
 <nav id="nav" class="item">
-    <h1>Mark</h1>
+    <h1 class="app-name">Marks</h1>
     <ul>
         <li data-fetch="md/study.md">
-            学习
+            STUDY
         </li>
         <li data-fetch="md/job.md">
-            工作
+            WORK
         </li>
-        
+        <li data-fetch="md/fun.md">
+            FUN
+        </li>
     </ul>
 </nav>
 <div id="detail" class="item">
-
+<!-- intended to be filled -->
 </div>
 
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/showdown.min.js"></script>
-<script>
-    var converter = new showdown.Converter();
-    $(function(){
-        $("#nav li").click(function(e) {
-            url = $(e.target).attr("data-fetch");
-            $.get(url, fillMd);
-        });
-
-        setup();
-    });
-
-    function setup() {
-        url = $("#nav li:first").attr("data-fetch");
-        $.get(url, fillMd);
-    }
-
-    function fillMd(md) {
-        var html = converter.makeHtml(md);
-        hml = $(html);
-        hml.find("a").attr("target", "_blank");
-        $("#detail").html(hml);
-    }
-</script>
+<script src="js/app.js"></script>
 </body>
 </html>
