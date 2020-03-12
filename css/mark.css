@@ -34,6 +34,7 @@ a:hover{
 }
 
 h2 {
+    margin-block-start: 0em;
     color: #bdc3c7;
 }
 
@@ -55,10 +56,14 @@ a {
 #nav li{
     cursor: pointer;
     list-style:none;
-    color: #fff;
+    color: #eee;
     font-weight: bold;
     font-size: xx-large;
     padding: 10%;
+}
+#nav li:hover{
+    color: #fff;
+    text-decoration: underline;
 }
 #nav li:nth-child(1) {
     background: #f39c12;
@@ -78,6 +83,11 @@ a {
 
 #detail{
     width: 80%;
-    background: #eee;
+    background: #fff;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    background-image: url("/images/inclusion.png");
     padding: 3%;
+    padding-right: 25%;
 }

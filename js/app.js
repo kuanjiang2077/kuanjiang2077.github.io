@@ -3,6 +3,8 @@ $(function(){
     $("#nav li").click(function(e) {
         url = $(e.target).attr("data-fetch");
         $.get(url, fillMd);
+        bgurl = $(e.target).attr("data-bg");
+        $("#detail").css("background-image", "url(\""+ bgurl +"\")");
     });
 
     setup();
