@@ -10,10 +10,13 @@ a {
     display: inline-block;
     color: #0366d6;
     text-decoration: none;
-    min-width: 100px;
 }
 
 a:hover{
     text-decoration: underline;
 }
 
+h1, ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}

@@ -2,84 +2,88 @@ html, body {
     margin: 0;
     font-size: large;
 }
-h1, ul {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-}
+
 #app-name {
+    display: flex;
+    padding-inline-start: 18px;
+    padding-inline-start: 18px;
     font-weight: lighter;
-    padding: 5%;
-    background-color: #fff;
+    font-size: 20px;
+    line-height: 56px;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
+#app-name>a{
+    min-width: 0px;
+    color: #fff;
 }
+
+#app-name>a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .item {
     background: #ddd;
 }
 
 h2 {
-    margin-block-start: 0em;
     color: #bdc3c7;
 }
 
-#nav {
-    width: 80px;
-    min-width: 80px;
-    overflow: auto;
-    background-color: #333;
+a {
+    min-width: 97px;
 }
 
-#nav ul {
-    padding-inline-start: 0px
+#nav {
+    background-color: #333;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: baseline;
+}   
+
+#nav .container {
+    display: flex;
+    padding-inline-start: 1em;
+}
+
+#nav .notes {
+    flex-grow: 1;
 }
 
 #nav li{
-    height: 80px;
-    line-height: 80px;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
     vertical-align: baseline;
     cursor: pointer;
     list-style:none;
-    color: #eee;
+    color: #fff;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 16px;
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 #nav li:hover{
-    color: #fff;
+    color: #eee;
     text-decoration: underline;
-}
-#nav li:nth-child(1) {
-    background: #f39c12;
-}
-#nav li:nth-child(2) {
-    background: #8e44ad;
-}
-#nav li:nth-child(3) {
-    background: #c0392b;
-}
-#nav li:nth-child(4) {
-    background: #2980b9;
-}
-#nav li:nth-child(5) {
-    background: #16a085;
 }
 
 #detail{
-    min-width: 90%;
+    max-width: 1012px;
     background: #fff;
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: top 0 right 0;
-    background-image: url("/images/inclusion.png");
-    padding: 3%;
-    padding-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 #detail p {
-    margin: 1em;
     line-height: 2em;
+    
 }
