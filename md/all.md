@@ -1,2 +1,2 @@
 # all
-[about](/note.html?note=about)
+[about](/note.html?note=about) 
