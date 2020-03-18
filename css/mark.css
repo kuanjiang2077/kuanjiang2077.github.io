@@ -47,7 +47,9 @@ a {
     display: flex;
     padding-inline-start: 1em;
 }
-
+#nav .container a {
+    color: #fff;
+}
 #nav .notes {
     flex-grow: 1;
 }

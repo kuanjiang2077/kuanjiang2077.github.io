@@ -1,23 +1,26 @@
 var converter = new showdown.Converter();
-$(function(){
-    $("#nav li").click(function(e) {
-        url = $(e.target).attr("data-fetch");
-        $.get(url, fillMd);
-        bgurl = $(e.target).attr("data-bg");
-        $("#detail").css("background-image", "url(\""+ bgurl +"\")");
-    });
+var DEFAULT_MD = 'study';
 
-    setup();
+$(function(){
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('category')) {
+        md = urlParams.get('category');
+    } else {
+        md = DEFAULT_MD;
+    }
+    fetch(md);
 });
 
-function setup() {
-    url = $("#nav li:first").attr("data-fetch");
-    $.get(url, fillMd);
+function fetch(md) {
+    const prefix = "md/";
+    const postfix = ".md";
+    $.get(prefix + md + postfix, function(data){
+        fillMd(data);
+    });
 }
 
 function fillMd(md) {
     var html = converter.makeHtml(md);
     hml = $(html);
-    hml.find("a").attr("target", "_blank");
     $("#detail").html(hml);
 }
