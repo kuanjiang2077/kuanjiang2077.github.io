@@ -32,7 +32,7 @@ h2 {
 }
 
 a {
-    min-width: 97px;
+    min-width: 92px;
 }
 
 #nav {
@@ -73,19 +73,33 @@ a {
     text-decoration: underline;
 }
 
-#detail{
+.wrapper {
+    margin-bottom: 20px;
     max-width: 1012px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bread {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detail{
     background: #fff;
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: top 0 right 0;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 18px;
     padding-right: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 }
 
 #detail p {
-    line-height: 2em;
-    
+    line-height: 2.2em;
+}
+
+#detail a {
+    text-align: center;
 }

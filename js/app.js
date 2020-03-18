@@ -8,18 +8,23 @@ $(function(){
     } else {
         md = DEFAULT_MD;
     }
-    fetch(md);
+    breadCrumbs(md);
+    fetchAndFill(md);
 });
 
-function fetch(md) {
+function breadCrumbs(md){
+    $("#bread").html("bookmark / "+ md);
+}
+
+function fetchAndFill(md) {
     const prefix = "md/";
     const postfix = ".md";
     $.get(prefix + md + postfix, function(data){
-        fillMd(data);
+        fill(data);
     });
 }
 
-function fillMd(md) {
+function fill(md) {
     var html = converter.makeHtml(md);
     hml = $(html);
     $("#detail").html(hml);
