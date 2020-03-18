@@ -3,8 +3,9 @@ var DEFAULT_MD = 'all';
 
 $(function(){
     const urlParams = new URLSearchParams(window.location.search);
-    md = urlParams.get('note');
-    if (md == null) {
+    if (urlParams.has('note')) {
+        md = urlParams.get('note');
+    } else {
         md = DEFAULT_MD;
     }
     fetch(md);
@@ -19,9 +20,7 @@ function fetch(md) {
 }
 
 function fillMd(md) {
-    
     var html = converter.makeHtml(md);
     hml = $(html);
-    hml.find("a").attr("target", "_blank");
     $("#note").html(hml);
 }

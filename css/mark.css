@@ -21,30 +21,14 @@ h1, ul {
     background: #ddd;
 }
 
-#nav{
-    width: 20%;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
 h2 {
     margin-block-start: 0em;
     color: #bdc3c7;
 }
 
-a {
-    color: #2c3e50;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 #nav {
+    width: 80px;
+    min-width: 80px;
     overflow: auto;
     background-color: #333;
 }
@@ -54,12 +38,15 @@ a {
 }
 
 #nav li{
+    height: 80px;
+    line-height: 80px;
+    vertical-align: baseline;
     cursor: pointer;
     list-style:none;
     color: #eee;
     font-weight: bold;
-    font-size: xx-large;
-    padding: 10%;
+    font-size: 40px;
+    text-align: center;
 }
 #nav li:hover{
     color: #fff;
@@ -82,20 +69,17 @@ a {
 }
 
 #detail{
-    width: 80%;
+    min-width: 90%;
     background: #fff;
-    background-size: 25%;
+    background-size: 200px;
     background-repeat: no-repeat;
     background-position: top 0 right 0;
     background-image: url("/images/inclusion.png");
     padding: 3%;
-    padding-right: 25%;
+    padding-right: 200px;
 }
 
-.note {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+#detail p {
+    margin: 1em;
+    line-height: 2em;
 }
