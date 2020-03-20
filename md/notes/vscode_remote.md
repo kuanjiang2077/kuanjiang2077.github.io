@@ -1,13 +1,13 @@
 [a text](https://zhuanlan.zhihu.com/p/82568294)
 
-vscode plugin search "remote development"
+ctrl + shift + p
 
-**install SSH Client**
-powershell(**admin**)
-Get-WindowsCapability -Online | ? Name -like 'OpenSSH\*'
+remote-ssh:connect to host
 
-Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+your-remote-ssh-passwd
 
-command prompt, cd %USERPROFILE%/.ssh
+open folder '/'
 
-ssh-keygen -t rsa -b 4096
+ctrl + ` // new terminal
+
+FIN
