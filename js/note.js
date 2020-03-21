@@ -2,7 +2,7 @@ var converter = new showdown.Converter();
 var DEFAULT_MD = "all";
 var PREFIX = "";
 
-$(function () {
+$(function() {
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.has("note")) {
     md = urlParams.get("note");
@@ -16,7 +16,7 @@ $(function () {
 function fetch(md) {
   const prefix = "md/notes/";
   const postfix = ".md";
-  $.get(prefix + md + postfix, function (data) {
+  $.get(prefix + md + postfix, function(data) {
     fillMd(data);
   });
 }
@@ -24,10 +24,10 @@ function fetch(md) {
 function fillMd(md) {
   var html = converter.makeHtml(md);
   $html = $(html);
-  $html.find("a").each(function (i, a) {
+  $html.find("a").each(function(i, a) {
     $a = $(a);
     old = $a.attr("href");
-    if (old.startsWith("http://") || old.startsWith("https://")) {
+    if (old.startsWith("http://") || old.startsWith("https://") || old == "/") {
       // not modify
     } else {
       $a.attr("href", PREFIX + old);

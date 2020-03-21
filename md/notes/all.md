@@ -1,6 +1,6 @@
 # Notes
 
-[back to main page](https://kuanjiang2077.github.io/)
+[back to main page](/)
 
 [VSCode-Remote](vscode_remote)
 [SQL-index](mysql_index)
