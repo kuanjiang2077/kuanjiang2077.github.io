@@ -10,3 +10,9 @@ a {
   padding-left: 1em;
   padding-right: 1em;
 }
+#note p {
+  line-height: 2.2em;
+}
+#note a:hover {
+  background: #eee;
+}
