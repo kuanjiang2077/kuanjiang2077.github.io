@@ -106,3 +106,7 @@ a {
 #detail a:hover {
   background: #eee;
 }
+
+#loading {
+  color: #999;
+}
