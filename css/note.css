@@ -16,3 +16,9 @@ a {
 #note a:hover {
   background: #eee;
 }
+
+body h2,
+body h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(234, 236, 239);
+}
