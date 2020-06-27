@@ -30,4 +30,4 @@
 
 ## entertainment
 
-[bilibili](https://bilibili.com)
+[bilibili](https://t.bilibili.com)
