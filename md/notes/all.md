@@ -18,6 +18,7 @@
 
 ## others
 
+[epoll](https://zhuanlan.zhihu.com/p/63179839)
 [todo](todo)
 [VSCode-Remote](vscode_remote)
 [SQL-index](mysql_index)
