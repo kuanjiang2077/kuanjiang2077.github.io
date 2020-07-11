@@ -33,4 +33,7 @@
 
 [bilibili](https://t.bilibili.com)
 [news](https://tophub.today/)
+
+## Ubuntu software
 [ubuntu theme](https://www.gnome-look.org/)
+[inkscape install](https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable/+packages)
