@@ -33,3 +33,4 @@
 
 [bilibili](https://t.bilibili.com)
 [news](https://tophub.today/)
+[ubuntu theme](https://www.gnome-look.org/)
