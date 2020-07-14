@@ -41,6 +41,9 @@
 [bilibili](https://t.bilibili.com)
 [news](https://tophub.today/)
 
+## linux
+[tools](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+
 ## Ubuntu software
 [ubuntu theme](https://www.gnome-look.org/)
 [inkscape install](https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable/+packages)
