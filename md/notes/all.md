@@ -10,6 +10,12 @@ bilibili download see top rate 10-20
 
 做完分类再作 Top 100
 
+## Plan
+
+1. leetcode 5
+2. code complete 2
+3. ddia-cn
+
 ## LeetCode 题解 [github](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 
 ### Algorithm
@@ -26,6 +32,8 @@ bilibili download see top rate 10-20
 
 ## others
 
+[algorithm-visualizer](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
 [epoll](https://zhuanlan.zhihu.com/p/63179839)
 [todo](todo)
 [VSCode-Remote](vscode_remote)
@@ -40,3 +48,12 @@ bilibili download see top rate 10-20
 
 [bilibili](https://t.bilibili.com)
 [news](https://tophub.today/)
+
+## linux
+
+[tools](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+
+## Ubuntu software
+
+[ubuntu theme](https://www.gnome-look.org/)
+[inkscape install](https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable/+packages)
