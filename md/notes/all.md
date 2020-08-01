@@ -1,7 +1,14 @@
-
 # Notes
 
 [back to main page](/)
+
+## 土妹编程
+
+重要的标签 10-20 个
+数组、字符串、链表、双指针、BFS\DFS、二叉树、二分法、分治法、回溯法、数学、栈、堆、队列
+bilibili download see top rate 10-20
+
+做完分类再作 Top 100
 
 ## LeetCode 题解 [github](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 
